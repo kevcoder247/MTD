@@ -1,4 +1,24 @@
 body{
     background-color: rgb(241, 240, 240);
     font-size: 1.5rem;
+    border: 5px solid green;
+    height: 100vh;
+}
+h1{
+    border: 2px solid red;
+   
+    width: 200px;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+.container{
+    /* margin: auto; */
+    text-align: center;
+}
+.appContainer{
+    border: 3px solid blue;
+    height: 400px;
+    width: 300px;
+    margin: auto;
 }
