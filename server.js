@@ -2,11 +2,14 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+//Link CSS========================================
+app.use(express.static(__dirname + '/public'));
+
 //MIDDLEWARE=======================================
 //Routes
 //I
-app.get('/', (req, res) => {
-    res.send('Index')
+app.get('/home', (req, res) => {
+    res.render('index.ejs')
 })
 //N
 //D
